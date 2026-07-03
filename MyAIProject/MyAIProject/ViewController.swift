@@ -11,10 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let label = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 35))
+        let label = UILabel(frame: CGRect(x: 50, y: 70, width: 100, height: 35))
         let view = UIView()
         view.backgroundColor = UIColor.red
-        view.frame = CGRect(x: 20, y: 120, width: 200, height: 40)
+        view.frame = CGRect(x: 40, y: 120, width: 200, height: 140)
         //
         self.view.addSubview(label)
         self.view.addSubview(view)
