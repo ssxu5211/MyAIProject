@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let label = UILabel(frame: CGRect(x: 50, y: 70, width: 100, height: 35))
-        label.text = "gitHub"
+        label.text = "Hello gitHub"
         label.textColor = UIColor.green
         let view = UIView()
         view.backgroundColor = UIColor.red
