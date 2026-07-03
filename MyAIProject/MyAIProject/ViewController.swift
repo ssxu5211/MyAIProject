@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let view = UIView()
         view.backgroundColor = UIColor.red
         view.frame = CGRect(x: 40, y: 120, width: 200, height: 140)
-        //
+        // 这里将控件添加到view
         self.view.addSubview(label)
         self.view.addSubview(view)
         // Do any additional setup after loading the view.
